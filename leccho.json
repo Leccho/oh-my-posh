@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "final_space": true,
   "console_title": true,
   "console_title_style": "folder",
@@ -10,40 +11,32 @@
       "vertical_offset": 0,
       "segments": [
         {
-          "type": "os",
-          "style": "diamond",
-          "foreground": "#ffffff",
           "background": "#333333",
-          "trailing_diamond": "",
-          "properties": null
+          "foreground": "#ffffff",
+          "style": "plain",
+          "type": "os"
         },
         {
-          "type": "session",
-          "style": "diamond",
-          "powerline_symbol": "",
-          "invert_powerline": false,
-          "foreground": "#ffffff",
           "background": "#333333",
-          "leading_diamond": "",
+          "foreground": "#ffffff",
+          "style": "diamond",
           "trailing_diamond": "\uE0B0",
-          "properties": null
+          "type": "session"
         },
         {
-          "type": "path",
-          "style": "powerline",
-          "powerline_symbol": "\uE0B0",
-          "invert_powerline": false,
-          "foreground": "#ffffff",
           "background": "#2569b4",
-          "leading_diamond": "",
-          "trailing_diamond": "",
+          "foreground": "#ffffff",
           "properties": {
+            "style": "agnoster_full",
             "folder_separator_icon": " <#011627>\uE0B1</> ",
             "home_icon": "\uf7db ",
             "folder_icon": "\uf07c ",
-            "style": "agnoster",
             "enable_hyperlink": true
-          }
+          },
+          "powerline_symbol": "\uE0B0",
+          "invert_powerline": false,
+          "style": "powerline",
+          "type": "path"
         },
         {
           "type": "git",
@@ -52,8 +45,6 @@
           "invert_powerline": false,
           "foreground": "#ffffff",
           "background": "#6ca35e",
-          "leading_diamond": "",
-          "trailing_diamond": "",
           "properties": {
             "display_status": true,
             "display_stash_count": true,
@@ -73,10 +64,7 @@
           "powerline_symbol": "\uE0B0",
           "invert_powerline": false,
           "foreground": "#ffffff",
-          "background": "#b71c1c",
-          "leading_diamond": "",
-          "trailing_diamond": "\uE0B0",
-          "properties": null
+          "background": "#b71c1c"
         }
       ]
     },
